@@ -1,0 +1,89 @@
+/*Project fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+/* Variables */
+
+:root {
+    --myGreen: #93cb52;
+    --myGrey: #333;
+}
+
+
+/* My reset */
+
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #555;
+}
+
+
+a {
+    color: black;
+}
+
+
+/*Utility Classes*/
+
+.text-primary {
+    color: var(--myGreen);
+}
+
+.active {
+    background: var(--myGreen)
+}
+
+
+/*Paddings*/
+
+
+/* y - axis */
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+
+
+/* x - axix */
+
+.px-1 {
+    padding: 0 1.5rem;
+}
+
+.px-2 {
+    padding: 0 2rem;
+}
+
+.px-3 {
+    padding: 0 3rem;
+}
+
+
+/* x+y - axix*/
+
+.p-1 {
+    padding: 1.5rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
