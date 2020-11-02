@@ -461,7 +461,7 @@
         /* width: 100%; */
         grid-column: 1 / -1;
         /*     padding: .5rem 0;*/
-        height: 5rem;
+        height: 73px;
         position: sticky;
         top: 0;
     }
@@ -481,11 +481,11 @@
   }
 
   .navbar-links ul li a {
-    padding: 22px 16px;
+    padding: 19px 16px;
   }
   
   .drop {
-    height: 182px;
+    height: 162px;
   }
  
 
