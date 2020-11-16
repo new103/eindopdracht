@@ -173,6 +173,22 @@
 
 }
 
+main {
+  background: #A9A9A9;
+}
+
+#onderhoud-benzine {
+  background: blanchedalmond;
+}
+
+#onderhoud-diesel {
+  background: cadetblue;
+}
+
+#apk {
+  background: darkgray;
+}
+
 .container-content1,
 .container-content2,
 .container-content3 {
@@ -182,45 +198,70 @@
 
 h2 {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
   font-size: 1.3rem;
   /* border-bottom: none; */
 }
 
-#goto-benzine {
-  margin-top: -50px;
-  /* Size of fixed header */
-  padding-bottom: 50px;
+h2::before {
   display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+  pointer-events: none;
 }
 
-#goto-diesel {
+/* #goto-benzine {
   margin-top: -50px;
-  /* Size of fixed header */
   padding-bottom: 50px;
   display: block;
-}
+} */
+
+/* #goto-diesel {
+  margin-top: -20px;
+  padding-bottom: 20px;
+  display: block;
+} */
+/* 
+#goto-apk {
+  margin-top: -50px;
+  padding-bottom: 50px;
+  display: block;
+} */
 
 
 
 .text-content1 p {
   text-align: justify;
-}
-
-.foto-content1-container img,
-.foto-content2-container img,
-.foto-content3 img {
-  display: block;
-  max-width: 80vw;
-  margin: 0 auto;
-  margin-top: 1rem;
-}
-
-#apk {
   margin-bottom: 1rem;
 }
 
+.text-content1 h3 {
+  padding-bottom: 0.3rem;
+}
 
+.foto-content1-container img,
+.foto-content2-container img {
+  display: block;
+  max-width: 80vw;
+  margin: 3rem auto 6rem;
+
+}
+
+.foto-content3-container img {
+  margin-bottom: 1rem;
+  display: block;
+  max-width: 80vw;
+  margin: 3rem auto 3rem;
+}
+
+
+.btn {
+  display: block;
+  margin: 0 auto 3rem;
+}
 
 
 
@@ -360,6 +401,8 @@ h2 {
 
   main {
     grid-column: 1 / -1;
+    display: grid;
+
 
   }
 
@@ -383,7 +426,7 @@ h2 {
 
   /* Problem przy drugim nagłówku, dlatego musi być wartość - */
   #goto-diesel {
-    margin-top: -80px;
+    margin-top: -40px;
     /* Size of fixed header */
     padding-bottom: 80px;
     display: block;
@@ -399,22 +442,38 @@ h2 {
   .container-content1 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 1rem;
-    /* margin-top: 2rem; */
   }
 
   .text-content1 {
-    width: 70%;
+    /* width: 70%; */
+    flex: 2 1 0;
+  }
+
+  .text-content1 h3 {
+    padding-bottom: 0.3rem;
+  }
+
+  .text-content1 p {
+    margin-bottom: 1rem;
   }
 
   .foto-content1 {
-    width: 30%;
+    /* width: 30%; */
+    flex: 1 1 0;
+  }
+
+
+  .foto-content1-container {
+    text-align: right;
   }
 
   .foto-content1-container img {
-    width: 90%;
-    margin-top: 0;
+    display: inline;
+    width: 95%;
+    margin: 0 auto 1rem;
+    /* text-align: right; */
   }
 
 
