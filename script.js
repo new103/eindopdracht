@@ -5,6 +5,16 @@ btn.addEventListener('click', () => {
   menu.classList.toggle('on-off');
 });
 
+let benzine = document.querySelector('.benzine');
+benzine.addEventListener('click', () => {
+  menu.classList.toggle('on-off');
+});
+
+let diesel = document.querySelector('.diesel');
+diesel.addEventListener('click', () => {
+  menu.classList.toggle('on-off');
+});
+
 function initMap() {
   // Your location
   const loc = {
