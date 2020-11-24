@@ -195,7 +195,6 @@ main {
   padding: 10px 7px;
 }
 
-
 h2 {
   text-align: center;
   margin-top: 5rem;
@@ -254,13 +253,24 @@ h2::before {
   margin-bottom: 1rem;
   display: block;
   max-width: 80vw;
-  margin: 3rem auto 3rem;
+  margin: 3rem auto 0;
 }
 
 
-.btn {
+#apk a {
   display: block;
-  margin: 0 auto 3rem;
+  padding: 1rem 1rem;
+  margin: 4rem auto 4rem;
+  background: var(--myGrey);
+  width: 11rem;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  transition: 0.2s all ease;
+}
+
+#apk a:hover {
+  background: var(--myGreen);
 }
 
 
@@ -284,6 +294,7 @@ h2::before {
     display: grid;
     grid-gap: 0;
     grid-template-columns: repeat(3, 1fr);
+
     /*        grid-template-rows: 0.5fr 1.2fr 1fr 1.2fr 3fr 3fr 0.5fr 0.5fr 1fr;*/
     /*                height: 100vh;*/
   }
@@ -418,19 +429,6 @@ h2::before {
 
   /*Fix position fixed, link to header*/
 
-  #goto-benzine {
-    /* margin-top: -150px; */
-    padding-bottom: 90px;
-    display: block;
-  }
-
-  /* Problem przy drugim nagłówku, dlatego musi być wartość - */
-  #goto-diesel {
-    margin-top: -40px;
-    /* Size of fixed header */
-    padding-bottom: 80px;
-    display: block;
-  }
 
 
   h2 {
@@ -439,12 +437,28 @@ h2::before {
     border-bottom: 1px solid black;
   }
 
+  #onderhoud-benzine {
+    margin-top: 3.5rem;
+    padding-bottom: 4rem;
+  }
+
+  h2::before {
+    display: block;
+    content: " ";
+    margin-top: -25px;
+    /* height: 80px; */
+    visibility: hidden;
+    pointer-events: none;
+  }
+
   .container-content1 {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     margin-top: 1rem;
   }
+
+
 
   .text-content1 {
     /* width: 70%; */
