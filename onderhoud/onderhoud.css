@@ -398,6 +398,10 @@ h2::before {
 
   }
 
+  .drop li {
+    text-align: left;
+  }
+
   /*
     .drop li a {
         height: 33.33%;

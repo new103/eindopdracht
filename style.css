@@ -445,6 +445,10 @@
 
   }
 
+  .drop li {
+    text-align: left;
+  }
+
   /*
     .drop li a {
         height: 33.33%;
@@ -628,6 +632,8 @@
   .drop {
     height: 162px;
   }
+
+
 
 
   .foto-main {

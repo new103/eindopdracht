@@ -166,6 +166,8 @@
   background: #555;
 }
 
+
+
 .drop-container:hover .drop {
   display: block;
 
@@ -182,20 +184,12 @@ main {
   background: #e6e6e6;
 }
 
-article img {
-  display: block;
-  width: 30%;
-  margin: 2rem auto;
+main table {
+  border-collapse: collapse;
+  margin: 0 auto;
 }
 
-section img {
-  display: block;
-  /* margin: auto; */
-  width: 50%;
-  margin: 2rem auto;
-  /* margin-bottom: 2rem; */
-  /* float: left; */
-}
+
 
 .footer {
   background: #333;
@@ -282,6 +276,7 @@ section img {
     /*        flex-grow: 0;*/
     /*   flex-shrink: 0;*/
     flex-basis: 18%;
+
   }
 
   .navbar-links ul li:first-child {
@@ -320,6 +315,7 @@ section img {
     text-align: left;
   }
 
+
   /*
     .drop li a {
         height: 33.33%;
@@ -334,33 +330,6 @@ section img {
     display: block;
   }
 
-  h1,
-  h2 {
-    /* margin-bottom: 2rem; */
-    padding: 2rem 0;
-  }
-
-  article img {
-    display: block;
-    width: 20%;
-    margin: auto;
-    float: left;
-  }
-
-  article p::after {
-    content: ".";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both;
-  }
-
-  section img {
-    display: block;
-    width: 40%;
-    margin: auto;
-    /* float: left; */
-  }
 
 
 
