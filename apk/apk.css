@@ -197,6 +197,22 @@
   margin: auto;
 }
 
+#section-3 a {
+  display: block;
+  padding: 1rem 1rem;
+  margin: 4rem auto 4rem;
+  background: var(--myGrey);
+  width: 11rem;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  transition: 0.2s all ease;
+}
+
+#section-3 a:hover {
+  background: var(--myGreen);
+}
+
 
 .footer {
   background: #333;
@@ -367,6 +383,8 @@
     display: block;
     width: 20%;
   }
+
+
 
   .footer {
     /*    background-color: gold;*/

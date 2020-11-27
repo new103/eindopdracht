@@ -40,6 +40,22 @@ a {
     background: var(--myGreen)
 }
 
+#apk a {
+    display: block;
+    padding: 1rem 1rem;
+    margin: 4rem auto 4rem;
+    background: var(--myGrey);
+    width: 11rem;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    transition: 0.2s all ease;
+}
+
+#apk a:hover {
+    background: var(--myGreen);
+}
+
 
 /*Paddings*/
 
