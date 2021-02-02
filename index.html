@@ -14,12 +14,12 @@
 <body>
   <div class="container">
 
-    <header id="main-header">
+    <header class="main-header">
 
 
       <div class="main-logo">
         <a href="index.html">
-          <div id="logo-container">
+          <div class="logo-container">
 
             <div class="logo">
               <p>Autobedrijf</p>
@@ -37,7 +37,7 @@
 
       <nav class="navbar">
 
-        <!--Hamburger menu 3 ikony ze spana-->
+        <!--domek i hamburger menu - tylko 3 kreski-->
         <div class="container-toggle-button">
           <div class="home-button">
             <a href="#"><i class="fas fa-home fa-2x"></i></a>
@@ -74,6 +74,8 @@
         </div>
       </nav>
     </header>
+
+
     <section class="foto-main"></section>
     <!-- <div class="foto">Big Foto</div> -->
 
@@ -91,27 +93,23 @@
       </div>
     </section>
 
-    <div class="media">
-      <div class="media-section-1">
-        <div class="media-1"></div>
-        <div class="media-2"></div>
-        <div class="media-3"></div>
+    <section class="media">
+      <div class="media-1"></div>
+      <div class="media-2"></div>
+      <div class="media-3"></div>
+      <div class="media-4">
+        <video controls>
+          <source src="video/olie-verversen.mp4">
+          <p>Bijwerk uw browser. Inmiddels kunt u <a href="video/olie-verversen.mp4">dit filmpie</a> downloaden</p>
+        </video>
       </div>
-      <div class="media-section-2">
-        <div class="media-4">
-          <video controls>
-            <source src="video/olie-verversen.mp4">
-            <p>Bijwerk uw browser. Inmiddels kunt u <a href="video/olie-verversen.mp4">dit filmpie</a> downloaden</p>
-          </video>
-        </div>
-        <div class="media-5">
-          <iframe src="https://www.youtube.com/embed/T4sVWvWB6gI" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
+      <div class="media-5">
+        <iframe src="https://www.youtube.com/embed/T4sVWvWB6gI" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
       </div>
+    </section>
 
-    </div>
 
     <section class="images">
       <div class="img-1">
@@ -123,6 +121,7 @@
           </figcaption>
         </figure>
       </div>
+
       <div class="img-2">
         <figure>
           <img src="img/olie-picture.jpg" alt="">
@@ -132,6 +131,7 @@
           </figcaption>
         </figure>
       </div>
+
       <div class="img-3">
         <figure>
           <img src="img/team-picture.jpg" alt="">
@@ -143,7 +143,33 @@
       </div>
     </section>
 
-    <footer class="footer">Copyright &copy; by Tomasz Waligóra 2020 Nieuwegein</footer>
+    <footer>
+      <section id="footer-main-1">
+        <h2>Autogarage <span class="text-primary">Auto</span>Fix</h2>
+        <p>Zwaardenburg 103</p>
+        <p>3437rk Nieuwegein</p>
+        <p>Email: autofix@gmail.com</p>
+        <p>Tel: +31 647 424 093</>
+      </section>
+      <section id="footer-main-2">
+        <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+      </section>
+      <section id="footer-main-3">
+        <h2>Links</h2>
+        <ul>
+          <li>Home</li>
+          <li>Service</li>
+          <li>Banden</li>
+          <li>APK</li>
+        </ul>
+      </section>
+      <section id="footer-main-4">
+        <p>Copyright &copy; by Tomasz Waligóra 2020 Nieuwegein</p>
+      </section>
+    </footer>
     <script src="script.js"></script>
   </div>
 </body>

@@ -1,5 +1,5 @@
 .container {
-  max-width: 1024px;
+  max-width: 1440px;
   display: grid;
   background: #e6e6e6;
   grid-template-rows: repeat(3, auto);
