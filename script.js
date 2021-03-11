@@ -1,3 +1,9 @@
+// year page build
+const data = new Date();
+const year = data.getFullYear();
+const yeaSite = document.querySelector('#year-site');
+yeaSite.textContent = year;
+
 let btn = document.querySelector('.toggle-button');
 let menu = document.querySelector('.navbar-links');
 

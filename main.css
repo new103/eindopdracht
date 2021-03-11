@@ -5,6 +5,10 @@
 /* Variables */
 
 :root {
+    --clr-gray-1: #e6e6e6;
+    --clr-gray-2: #d9d9d9;
+    --clr-gray-3: #ccc;
+    --clr-gray-4: #333;
     --myGreen: #93cb52;
     --myGrey: #333;
 }
@@ -22,6 +26,7 @@
 
 body {
     background: #555;
+    /* width: 100vw; */
 }
 
 
