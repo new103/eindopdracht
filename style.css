@@ -481,11 +481,6 @@ footer {
   .navbar-links ul li {
     border-top: none;
     width: 19%;
-
-    /*        flex-grow: 1;*/
-    /*        flex-grow: 0;*/
-    /*   flex-shrink: 0;*/
-    /* flex-basis: 18%; */
   }
 
   .navbar-links ul li:first-child {
@@ -776,8 +771,13 @@ footer {
     width: 100%;
   }
 
+  .navbar-links ul li {
+    border-top: none;
+    width: 13%;
+  }
+
   .navbar-links ul li a {
-    /* padding: 14px 50px; */
+
     /* width: 20 */
     font-size: 1rem;
   }
