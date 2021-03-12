@@ -466,6 +466,7 @@ footer {
     height: 100%;
     padding: 0 5px;
     /* justify-content: center; */
+
   }
 
   .navbar-links>ul {
@@ -496,9 +497,19 @@ footer {
     display: block;
     /* width: 5rem; */
     padding: 14px 17px;
-    border-radius: 5px;
-    transition: all 0.2s ease;
+    /* border-radius: 5px; */
+    transition: all 0.4s ease;
+    background: none;
+    /* border-bottom: 2px solid transparent; */
     /* z-index: 100; */
+    position: relative;
+  }
+
+  .navbar-links ul li a:hover {
+    background: none;
+    box-shadow: 0 5px 0 -2px var(--myGreen);
+    color: var(--myGreen);
+    z-index: 110;
   }
 
   /*    Navbar - drop*/
@@ -512,10 +523,11 @@ footer {
     position: absolute;
     background: #333;
     left: 1rem;
+    /* top: 3.1rem; */
     /* width: 7rem; */
-    height: 8.5rem;
+    height: 8.6rem;
     padding-top: 5px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     z-index: 100;
 
   }
@@ -771,7 +783,7 @@ footer {
   }
 
   .drop {
-    height: 9rem;
+    height: 9.3rem;
   }
 
   #drop-link {
